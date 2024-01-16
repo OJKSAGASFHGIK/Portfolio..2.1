@@ -1,0 +1,78 @@
+"""
+Commands in order (keep your HTML configured):
+
+===
++link(22):https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29432168#overview
+2:07 = 'projeto\urls.py:'
+    from django.http import HttpResponse
+
+    def home(request):
+        return HttpResponse('Home')
+    def contato(request):
+        return HttpResponse('Contato')
+    def sobre(request):
+        return HttpResponse('Sobre')
+    
+    urlpatterns = [
+        path('', home),
+        path('admin/', contato),
+        path('sobre/', sobre),
+    ]
+6:32 = 'terminal:' python manage.py startapp recipes
+6:32 = 'recipes is the name of the folder that you will create'
+
+===
++link(23):https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29432170#overview
+1:00 = 'recipes\views.py:'
+    from django.http import HttpResponse
+    def home(request):
+        return HttpResponse('HOME')
+
+2:13 = 'projeto\urls.py:'
+    from recipes.views import home
+6:15 = 'create a new folder:'
+6:15 = 'recipes\urls.py'
+6:15 = 'paste everything in 'projeto\urls.py' in 'recipes\urls.py'.'
+7:07 = 'projeto\urls.py:'
+7:07 = 'delete the urls in 'urlpatterns''
+7:07 = from django.urls import path, include
+7:34 = 'projeto\urls.py'
+    urlpatterns = [ path('', include('recipes.urls')) ]
+
+9:36 = 'all urls will begin in 'path('', include(recipes.urls))''
+
+-nested URLs:
+11:16 = 'browser:' 127.0.0.1:8000/recipes/
+12:00 = urlpatterns = [ path('recipes/', include('recipes.urls')) ]
+12:09 = 'browser:' 127.0.0.1:8000/recipes/sobre
+
+===
++link(24):https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29432174#overview
+-recipes\views.py:
+4:09 = from django.shortcuts import render
+5:05 = def home(request):
+    return render(request, 'home.html')
+
+=
+6:00 = 'nem folder:' recipes\templates
+6:35 = 'new file:' recipes\templates\home.html
+6:35 = 'Configure your file.html'
+
+10:22 = 'projeto\settings.py:' INSTALLED_APPS = [ 
+    #my apps
+    'recipes', ]
+
+14:02 = 'for take files in a base folder(global):'
+14:02 = 'projeto\settings.py:'
+    'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [ BASE_DIR / 'base_templates', ]
+
+-For more specificity:
+15:46 = 'new folder:' Recipes\templates\recipes
+15:50 = 'move file:' Recipes\templates\recipes\home.html
+16:35 = def home(request):
+    return render(request, 'recipes/home.html')
+17:09 = 'create a new folder base with files like this:'
+    base_templates\global\home.html
+
+"""

@@ -1,0 +1,19 @@
+Note que no primeiro caminho da url, as '' estão vazias. Isso significa que o
+ caminho será o link base (exemplo: 'http://127.0.0.1:8000/').
+
+Em <int:id>, isso significa que esse será um link mutável. A variável int nesse caso
+ serve para isso. Exemplo:
+    -tanto o link 'caminho/da/url/1/':
+    -quanto 'caminho/da/url/2/':
+ funcionáriam da mesmo forma, AO MESMO TEMPO.
+
+===
+from django.urls import path
+from . import views
+
+app_name = chave
+
+urlpatterns = [
+    path('', views.AlgumaDef, name='variavel1' )
+    path('caminho/da/url/<int:id>/', views.AlgumaDef2, name='variavel2' )
+]

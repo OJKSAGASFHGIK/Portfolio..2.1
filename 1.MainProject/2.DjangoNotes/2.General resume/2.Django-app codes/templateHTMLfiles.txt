@@ -1,0 +1,33 @@
+-Nota:
+Tudo que tá escrito dados, são chaves de um banco de dados python. Talvez algum valor
+    possa ter sido mudado de maneira errônea para fins didaticos. Enfim, só editar,
+    qualquer coisa.
+No mais, eu só to anotando essas variáveis para saber e relembrar como usar operadores
+    dentro do django.
+Nesse arquivo django, estou usando chaves com o mesmo nome da def dentro da view do app.
+    Lembrando que defs dentro de views, são extensões de links na sua página principal,
+    então se você pode usar chaves com o mesmo nome da def(link), seu código ficara
+    mais fácil de ler em teoria. Essa base é para informações que você vai pegar de
+    algum banco de dados(um arquivo python com informações relevantes).
+Quando você começar aplicar comandos PYTHON dentro do seu arquivo HTML em extensões
+    do seu link principal, naturalmente você devera usar variáveis diferentes.
+
+===
+{{ chaveDentroDaView.dadosTitulos }}
+{{ chaveDentroDaView.dadosNome.dadosPrimeiroNome }}
+{{ chaveDentroDaView.dadosData|date:"Y/m/d" }} at {{ chaveDentroDaView.dadosData|date:"H:i" }}
+<img src="{{ recipe.cover.url }}" alt="test">
+
+{{ chavePara.dadosInformativos|linebreaksbr }}
+
+=========Python-django=========
+===Django em arquivo HTML===
+{% if is not True False %}
+{% endNOMEDOCOMANDO ex: endif %}
+
+===Django dentro de tags===
+<a href='{% url 'nome-da-variavel-name-em:urls-para-a-home' %}' ></a>
+<a href='{% url 'nome-da-variavel-name-em:urls' caminho_em_urls.def_pra_o_id %}' ></a>
+
+===Comandos especiais django===
+{{ |linebreaksbr }}

@@ -1,0 +1,9 @@
+"""
+Note:
+-The comand {%  %} is specific for put codes in python. This notepad is for show
+ comands that is from django.
+"""
+
+{% include 'caminho/da/pasta' %}
+{% extends 'caminho/do/mainProject.html' %}
+{% block qualquerNomeIgual %}{% endblock qualquerNomeIgual %}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a2Vectors</title>
+    <link rel="stylesheet" href="assets\css\vars.css">
+    <script src="assets\js\a6Class.js" defer></script>
+</head>
+
+<body style="background:gray; font-size:27px;">
+    <aside class="button">
+        <div><a href="a1GeneralContent.html">Home</a></div>
+        <div>
+            <a href="a5tagsWithFunctions.html">Back</a>
+            <!--<span>/</span>
+            <a href="#">Next</a>-->
+        </div>
+    </aside>
+    <aside class="button2mini-menu">
+        <ul>
+            <li><a href="#p1">Constructor function</a></li>
+        </ul>
+    </aside>
+    <div id="p1">
+        <h1 class="line">Constructor function</h1>
+        <div id="id1name" class="block">
+        </div>
+        <pre>
+function Pessoa(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+}
+const pessoa1 = new Pessoa("Clara", 23);
+
+let id1name = document.getElementById("id1name");
+id1name.textContent = pessoa1["nome"] +" "+ pessoa1["idade"] ;
+        </pre>
+    </div>
+    <!--
+    Model:
+    <div id="p1">
+        <h1 class="line"></h1>
+        <div class="block">
+        </div>
+        <pre>
+// code
+        </pre>
+    </div>
+    </div>
+    -->
+</body>
+
+</html>

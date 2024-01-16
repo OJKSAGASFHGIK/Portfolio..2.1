@@ -1,0 +1,18 @@
+"""
+Nota:
+O context é uma função do render do django. Ele server para atribuir funcionalidades
+ PYTHON dentro do seu arquivo HTML. Ex: for variavel in range(3)
+"""
+
+from django.shortcuts import render
+from utils.recipes.banco_de_dados import qualquer_def
+
+def home(request):
+    return render(request, 'caminho/do/arquivo/home.html', context={
+        'chaves': [qualquer_def for _ in range(3)],
+    })
+
+def appproject(request):
+    return render(request, 'caminho/dos/arquivos/HTMLeCSS.html', context{
+        'chave': qualquer_def(),
+    })

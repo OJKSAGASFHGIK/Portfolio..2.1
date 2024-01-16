@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Repetitions</title>
+    <link rel="stylesheet" href="assets\css\vars.css">
+    <script src="assets\js\a4repetitionStructures.js" defer></script>
+</head>
+
+<body style="background:gray; font-size:27px;">
+    <aside class="button">
+        <div><a href="a1GeneralContent.html">Home</a></div>
+        <div>
+            <a href="a3Conditions.html">Back</a>
+            <span>/</span>
+            <a href="a5tagsWithFunctions.html">Next</a>
+        </div>
+    </aside>
+    <section class="subjects">
+        <ul>
+            <li><a href="#"></a>a1</li>
+            <li><a href="#"></a>a2</li>
+            <li><a href="#"></a>a2</li>
+        </ul>
+    </section>
+
+    <!--1-->
+    <div id="sub1">
+        <div class="line">for</div>
+        <pre>
+let id1 = document.getElementById("id1")
+for (a1 = 0; a1 < 3; a1++) {
+    id1.textContent += a1 + " " ;}
+    </pre>
+        <div class="block">
+            <div id="id1" class="a2c"></div>
+        </div>
+    </div>
+
+    <!--2-->
+    <div id="sub2">
+        <div class="line">while</div>
+        <pre>
+let id2 = document.getElementById("id2")
+let a2 = 0;
+while (a2 < 10) { 
+    a2++;
+    id2.textContent += a2 + " " ;}
+    </pre>
+        <div class="block">
+            <div id="id2"></div>
+        </div>
+    </div>
+
+    <!--3-->
+    <div id="sub3">
+        <div class="line">do/while</div>
+        <pre>
+id3 = document.getElementById("id3")
+let a3 = 0;
+do {
+    id3.textContent += a3 + " ";
+    a3++; } while (a3 < 3);
+    </pre>
+        <div class="block">
+            <div id="id3"></div>
+        </div>
+    </div>
+
+    <!--4-->
+    <div id="sub4">
+        <div class="line">for of</div>
+        <pre>
+id4 = document.getElementById("id4")
+let a4 = ["Um", "Dois", "Três"];
+for (var a4name of a4 ) {
+    id4.textContent += a4name + " " ; }
+        </pre>
+        <div class="block">
+            <div id="id4"></div>
+        </div>
+    </div>
+
+    <!--5-->
+    <div id="sub5">
+        <div class="line">for in</div>
+        <pre>
+id4extra = document.getElementById("id4extra")
+let a4extra = {"Um":1, "Dois":2, "Três":3};
+for (var id4extraName in a4extra ) {
+    id4extra.textContent += a4extra[id4extraName] + " " ; }
+        </pre>
+        <div class="block">
+            <div id="id4extra"></div>
+        </div>
+    </div>
+
+    <!--6-->
+    <div id="sub6">
+        <div class="line">continue break</div>
+        <pre>
+id5 = document.getElementById("id5")
+for (a5=0 ; a5<9 ; a5++) {
+    if (a5 === 3) {
+        continue
+    } else if (a5 === 8) {
+        break }
+    id5.textContent += a5 + " " ; }
+        </pre>
+        <div class="block">
+            <div id="id5"></div>
+        </div>
+    </div>
+
+    <!--
+        Base structure to copy:
+        <div>
+            <div class="line"></div>
+            <pre></pre>
+            <div class="block">
+                <div id=""></div>
+            </div>
+        </div>
+    -->
+</body>
+
+</html>

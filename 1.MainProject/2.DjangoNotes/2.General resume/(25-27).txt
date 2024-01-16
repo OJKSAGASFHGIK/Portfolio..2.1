@@ -1,0 +1,49 @@
+"""
+Commands in order:
+
+===
++(25)link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29432178#overview
+-'everything here is just a example, of fuctionalities, recover everything in:
+    time: 11:35'
+
+-'recipes\views.py:'
+4:21 = def home(request):
+    return render(request, 'recipes/home.html', context={
+        'name': 'Luiz Otávio',
+    })
+-'recipes\templates\recipes\home.html'
+5:12 = {{ name }}
+
+=
+6:33 = 'new folder and file:' templates_temp\temp\temp.html
+    <h1>Isso será apagado!</h1>
+7:31 = ''
+    'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [ BASE_DIR / recipes / 'templates_temp', ]
+9:05 = 'recipes\views.py:' 
+    def contact(request):
+    return render(request, 'temp/temp.html')
+
+===
++(27)link: https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29437762#overview
+-Clean:
+2:10 = 'recipes\views.py'
+    'from django.http import HttpResponse
+    def contato, def sobre'
+2:18 = 'recipes\urls.py'
+    'from recipes.views import contato, sobre
+    path sobre, path contato'
+
+=
+6:12 = 'recipes\templates\recipes\home.html'
+    head
+        'google: font awesome all min cdn'
+        'google: font awesome brands min cdn'
+        'google: font awesome solid min cdn'
+    body
+        h1
+            i class='https://fontawesome.com'
+9:31 = 'bug icon...'
+
+
+"""
