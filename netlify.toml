@@ -3,6 +3,7 @@
   publish = "public/1.Portfolio"
 
 [[redirects]]
-  from = "./2.ProjectNotes"
-  to = "1.HTMLandCSSnotes/:splat"
+  from = "/a1ResumeAll.html"
+  to = "/2.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html"
   status = 200
+  force = true
