@@ -1,13 +1,8 @@
 [build]
   command = "echo 'no build script'"
-  publish = "public"
+  publish = "public/1.Portfolio"
 
 [[redirects]]
-  from = "/1.Portfolio/*"
-  to = "/1.Portfolio/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/2.ProjectNotes/1.HTMLandCSSnotes/*"
-  to = "/2.ProjectNotes/1.HTMLandCSSnotes/:splat"
+  from = "./2.ProjectNotes/1.HTMLandCSSnotes/*"
+  to = "./2.ProjectNotes/1.HTMLandCSSnotes/:splat"
   status = 200
