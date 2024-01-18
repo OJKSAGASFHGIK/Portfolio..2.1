@@ -1,2 +1,0 @@
-{% extends 'caminho/do/mainProject.html' %}
-{{ view.title }}
