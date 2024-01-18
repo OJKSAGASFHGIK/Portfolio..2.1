@@ -5,5 +5,4 @@
 [[redirects]]
   from = "/a1ResumeAll.html"
   to = "/2.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html"
-  status = 404
-  force = true
+  status = 200
