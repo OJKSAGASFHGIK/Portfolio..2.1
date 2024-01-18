@@ -3,11 +3,11 @@
   publish = "public"
 
 [[redirects]]
-  from = "/1.Portfolio/index.html"
-  to = "/1.Portfolio/index.html"
+  from = "/1.Portfolio/*"
+  to = "/1.Portfolio/:splat"
   status = 200
 
 [[redirects]]
-  from = "/2.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html"
-  to = "/2.ProjectNotes/1.HTMLandCSSnotes/a1ResumeAll.html"
+  from = "/2.ProjectNotes/1.HTMLandCSSnotes/*"
+  to = "/2.ProjectNotes/1.HTMLandCSSnotes/:splat"
   status = 200
