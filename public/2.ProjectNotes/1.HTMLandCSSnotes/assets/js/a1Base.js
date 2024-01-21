@@ -3,7 +3,7 @@ Layout.innerHTML = `
 <div>
 <select name="paths" id="idLinkSection">
     <option data-url="#" value="op0">-Sections</option>
-    <option data-url="a1ResumeAl.html" value="op1">Resume all</option>
+    <option data-url="a1ResumeAll.html" value="op1">Resume all</option>
     <option data-url="a2SemanticaHTML.html" value="op1">Semantic HTML</option>
     <option data-url="a3CustomizingBackground.html" value="op1">Background</option>
     <option data-url="a4DoingAMenu.html" value="op1">Doing a menu</option>
