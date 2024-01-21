@@ -1,6 +1,5 @@
 [build]
     publish = "."
-    echo 'no build script'
 
 [[redirects]]
     from = "public\1.Portfolio"
