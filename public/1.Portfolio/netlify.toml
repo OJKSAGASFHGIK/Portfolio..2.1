@@ -4,4 +4,4 @@
 
 [[redirects]]
   from = "../"
-  to = "../2.ProjectNotes/1.HTMLandCSSnotes"
+  to = "../2.ProjectNotes/1.HTMLandCSSnotes/:splat"
