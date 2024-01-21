@@ -1,5 +1,5 @@
 [build]
-  publish = "public/a"
+  publish = "../a"
   command = "echo 'no build script'"
 
 [[redirects]]
