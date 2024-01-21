@@ -1,5 +1,5 @@
 [build]
-    publish = "sijdoaijdis"
+    publish = "."
     echo 'no build script'
 
 [[redirects]]
