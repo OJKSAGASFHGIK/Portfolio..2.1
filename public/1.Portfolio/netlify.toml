@@ -1,7 +1,0 @@
-[build]
-    publish = "."
-    echo 'no build script'
-
-[[redirects]]
-    from = "public\1.Portfolio"
-    to = "public\2.ProjectNotes\1.HTMLandCSSnotes"
