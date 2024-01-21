@@ -1,5 +1,5 @@
 [build]
-    publish = "asasa"
+    publish = "."
     echo 'no build script'
 
 [[redirects]]
