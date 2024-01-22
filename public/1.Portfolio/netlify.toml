@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "../2.ProjectNotes/1.HTMLandCSSnotes/*"
-  to = "../1.Portfolio/:splat"
+  to = "..//:splat"
   status = 301
   force = true
