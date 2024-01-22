@@ -4,4 +4,4 @@
 
 [[redirects]]
   from = "public/2.ProjectNotes/*"
-  to = "1.HTMLandCSSNotes/:splat"
+  to = "1.HTMLandCSSnotes/:splat"
