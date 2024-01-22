@@ -8,6 +8,6 @@
   status = 200
 
 [[redirects]]
-  from = "public/*"
-  to = "public/2.ProjectNotes/1.HTMLandCSSnotes/:splat"
+  from = "public/2.ProjectNotes/1.HTMLandCSSnotes/*"
+  to = "public/:splat"
   status = 200
