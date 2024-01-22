@@ -4,10 +4,5 @@
 
 [[redirects]]
   from = "public/*"
-  to = "public/1.Portfolio/:splat"
-  status = 200
-
-[[redirects]]
-  from = "public/2.ProjectNotes/1.HTMLandCSSnotes/*"
-  to = "public/:splat"
+  to = "public/2.ProjectNotes/1.HTMLandCSSnotes/:splat"
   status = 200
