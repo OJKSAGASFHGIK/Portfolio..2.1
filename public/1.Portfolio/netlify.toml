@@ -3,5 +3,5 @@
   command = "echo 'no build script'"
 
 [[redirects]]
-  from = "/public/2.ProjectNotes/*"
+  from = "../2.ProjectNotes/*"
   to = "/1.HTMLandCSSnotes/:splat"
