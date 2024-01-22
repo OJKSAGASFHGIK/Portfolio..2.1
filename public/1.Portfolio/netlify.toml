@@ -3,7 +3,7 @@
   command = "echo 'no build script'"
 
 [[redirects]]
-  from = "."
-  to = "../2.ProjectNotes/1.HTMLandCSSnotes/:splat"
-  status = 200
+  from = "../2.ProjectNotes/1.HTMLandCSSnotes/*"
+  to = "../1.Portfolio/:splat"
+  status = 301
   force = true
