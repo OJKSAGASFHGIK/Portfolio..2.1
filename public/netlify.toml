@@ -3,7 +3,7 @@
   command = "echo 'no build script'"
 
 [[redirects]]
-  from = "/1.ProjectNotes/1.HTMLandCSSnotes/*"
-  to = "/1.ProjectNotes/1.HTMLandCSSnotes/:splat"
+  from = "/1.ProjectNotes/1.HTMLandCSSnotes/*" # from = link (from é o link)
+  to = "/1.ProjectNotes/1.HTMLandCSSnotes/:splat" # to = path (to é o path)
   status = 200
   force = true
