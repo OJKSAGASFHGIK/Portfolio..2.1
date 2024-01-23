@@ -1,6 +1,0 @@
-(a13-a14) conditions,
-function,
-a17 classes,
-a15 repetitive structures,
-
-a10 eventos, 

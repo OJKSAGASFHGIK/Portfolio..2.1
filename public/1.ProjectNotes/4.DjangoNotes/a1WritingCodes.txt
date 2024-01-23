@@ -1,0 +1,84 @@
+"""
++For now, I'll just put important times of and the number of the class.
+-Link base:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29465474#overview
+-Times (just times and new content {or influence content}):
+(42) - 3:17(recipes\urls.py):
+time:
+03:17       from . import views
+03:51(clear)        from recipes.views import home
+03:50       urlpatterns = [ path(''), views.home ]
+=
+(recipes\views.py) - 4:21, 7:09,
+(recipes\urls.py) - 4:34, 4:59, 6:00, 9:04,  10:11, 
+
+===
+(43):
+    recipes\templates\recipes\pages\recipe-view.html:
+        1:07, 1:45, 2:33,
+    recipes\view.py:
+        1:17,
+    styles.css:
+        4:00, 5:11,
+
+===
+(44):
+    base_templates\global\base.html:
+        2:23, 3:42,
+    recipes\templates\recipes\pages\home.html:
+        4:07, 4:46, 5:42, 9:44,
+    recipes\templates\recipes\pages\recipe-view.html:
+        7:38, 8:29, 8:54,
+===
+(45 {try follow these steps time by time}):
+    recipes\templates\recipes\partials\head.html:
+        0:58, 2:12, 3:06,
+    recipes\templates\recipes\pages\home.html:
+        4:39,
+    base_templates\global\base.html:
+        1:41, 2:22, 3:24, 4:04,
+===
+(46 {try follow these steps time by time}):
+    __localcode\main.py:
+        3:16, 4:06
+    utils\recipes\factory.py:
+        5:34, 6:05
+    recipes\views.py:
+        6:19, 6:37, 6:47, 7:14
+    recipes\templates\recipes\pages\home.html:
+        8:23, 9:51
+    recipes\templates\recipes\partials\recipe.html:
+        10:44, 11:11, 12:00, 12:14, 12:29, 13:49, 14:15, 16:02, 16:21, 16:53, 17:23
+        17:43, 18:12, 18:21, 18:27
+    https://docs.djangoproject.com/en/4.2/topics/templates/
+        13:00, 13:11
+
+===
+(47 {try follow these steps time by time}):
+    static\recipes\css\styles.css:
+        1:17 
+    recipes\templates\recipes\partials\recipe.html:
+        2:26
+
+===
+(48 {try follow these steps time by time}):
+    recipes\views:
+        1:42
+    recipes\templates\recipes\partials\recipe.html:
+        2:59-4:56, 5:41-6:15, 6:42-7:14
+    static\recipes\css\styles.css:
+        8:15
+
+===
+(49 {try follow these steps time by time}):
+    recipes\urls.py:
+        0:44-1:18, 11:30-11:45
+    recipes\templates\recipes\partials\header.html:
+        2:21, 2:52
+    recipes\templates\recipes\partials\recipe.html:
+        3:42, 5:03, 6:24, 7:01, 9:33-10:34, 12:30-13:35
+    utils\recipes\factory.py:
+        5:28-6:00
+    static\recipes\css\styles.css:
+        7:57
+
+"""

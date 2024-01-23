@@ -1,0 +1,24 @@
+-Base de caminho:
+Django\urls.py < Recipes\urls.py < Recipes\views.py
+
+===
+Django\ == django-project(abreviação usada por mim para separar projeto-django e projeto-app)
+	setting.py == configurações base do django(assim como: caminhos de arquivos estáticos)
+	urls.py == caminho do django-app
+
+Recipes\ == django-app(abreviação usada por mim para separar projeto-django e projeto-app)
+	urls.py == recebe views do django-app e envia para o django-project\urls.py
+
+	templates\recipes\a1pages
+		Recipes\templates\recipes\a1pages\a1home.html == Bloco de notas(informações relevantes do site estão aqui)
+		Recipes\templates\recipes\a1pages\a2recipeView.html == Mostra 1 receita
+	templates\recipes\a2partials == 'Partes HTML e CSS do website'
+
+	view.py == envia links de arquivos para o .\urls.py e também aplica comandos PYTHON a arquivos HTML
+
+static\app
+static\global
+static\admin == arquivos estáticos de maneira geral(ex: styles.css)
+
+base_templates\global\
+	home.html == Mostra todas as receitas(parte principal do site)

@@ -1,0 +1,46 @@
+/*
+variable notes:
+vColor = Variable Color
+*/
+
+:root { --vColor1: cyan; }
+
+.a1c { color: black }
+.a2c { color: red }
+.a3c { color: green }
+.a4c { color: yellow }
+.a5c { color: blue }
+.a6c { color: cyan }
+.a7c { color: white; background: var(--none); }
+.aExtraC { color: orange; }
+
+/*pre */
+* {margin:0; padding:0; font-size: 27px;}
+pre::before {content:"Code: \a"; color:var(--vColor1);}
+pre {border: solid 3px var(--vColor1);
+    padding:9px;}
+
+/**/
+.button {padding:9px; background: white;
+    display:flex; justify-content: space-between;}
+.button a {color:red;}
+
+/**/
+.button2mini-menu ul { display:flex; flex-wrap:wrap; }
+.button2mini-menu li { list-style-type: none; padding:3px; }
+.button2mini-menu a {
+    border: solid 3px yellow; background:cyan; color:red;
+    text-decoration: none; }
+
+/* .block (for div) */
+.block::before {content:"Output: \a"; color:var(--vColor1);}
+.block {border: solid 3px var(--vColor1);
+    padding: 9px;}
+
+/*(for space between tags)*/
+.line {color:white; background-color:red; border: solid 1px yellow;}
+.l-important {color:white; background-color:green; border: solid 1px yellow;}
+
+/*for img tag*/
+.baseSize { border: solid black 3px;
+    width:486px; height:243px; overflow:auto; }

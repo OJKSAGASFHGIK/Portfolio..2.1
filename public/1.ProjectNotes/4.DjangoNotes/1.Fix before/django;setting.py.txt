@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=TrsI4xbZILg&t=2s&ab_channel=GautamY
+STATIC_URL = 'static/'
+STATICFILES_DIRS = [
+    BASE_DIR / 'static'
+]

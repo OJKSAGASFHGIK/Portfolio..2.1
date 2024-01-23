@@ -1,0 +1,11 @@
+"""
++For now, I'll just put important times of and the number of the class.
+-Link base:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29452244#overview
+
+-Times (just times and new content {or influence content}):
+(35) - 0:39, 6:26 
+(40) - 6:37 STATICFILES_DIRS = [BASE_DIR / 'base_static'] , 4:08(html) 
+    href='{% static 'caminho/da/pasta/depois/de/static' %}'
+(41) - 3:31 STATIC_ROOT = BASE_DIR / 'static', 2:48 python manage.py collectstatic
+
+"""

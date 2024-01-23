@@ -1,0 +1,56 @@
+"""
++Commands in order (now, I'll use my paths {no the video paths}):
+-base html:
+    head
+        'google: font awesome all min cdn'
+        'google: font awesome brands min cdn'
+        'google: font awesome solid min cdn'
+    body
+        header.main-header-container
+            h1.main-header container
+                a.main-logo href='/'
+                    i.main-logo-icon class='https://fontawesome.com'
+                    span.main-logo-text
+-'clean and fix these folders like this:'
+    recipes\templates\recipes\pages\home.html
+    recipes\templates\recipes\partials\head.html
+
+
+===
++(28)link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29437836#overview
+-CSS:
+4:12 = * { padding:0; margin:0; box-sizing:border-box; }
+    html { font-size:62.5%; }
+    body { font-size:1.6rem; }
+
+=
+11:42 - 'recipes\templates\recipes\partials\head.html:'
+    'paste the head in this'
+13:45 - {% include 'recipes/partials/head.html' %}
+
+===
++(29)link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29438322#overview
+-Recipes\templates\recipes\a2head\a1head.html:
+0:37 = 'Recipesctrl+shift+P:' html
+4:36 = ':root used in CSS:' https://github.com/luizomf/curso-django-projeto1/commit/4f711c5e8a62d2da5b76f602ce8467b2c02eca0b
+11:07 = 'Use google fonts link'
+
+-CSS:
+1:12 = header.main-header-container {background:var(--color-primary-dark)};
+2:45 = header h1.container {max-width:144rem; padding:var(--spacing-gutter-medium); margin:0 auto;};
+
+5:47 = body {font-family: var(--font-primary)}
+7:03 = a.main-logo {color:var(--color-white);
+    text-decoration:none;
+
+    font-size:4rem;
+    
+    display:flex; flex-flow:row nowrap;
+    justify-content:center; align-items: center;
+    
+    width:fit-content; margin:0 auto;}
+10:12 = i.main-logo-icon {margin-right:2rem;}
+12:24 = h1,h2,h3,h4,h5,h6 {font-family: var(--font-headings)}
+
+
+"""
