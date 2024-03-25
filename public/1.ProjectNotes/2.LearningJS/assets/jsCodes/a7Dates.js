@@ -151,3 +151,5 @@ function func5DaysForMyBirthday() {
     }
 }
 let a5ResultHowMuchDays = func5DaysForMyBirthday();`;
+
+//

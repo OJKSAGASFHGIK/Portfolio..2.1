@@ -9,6 +9,7 @@ document.getElementById("Layout").innerHTML = `
       <option data-url="a5Events.html" value="op1">Events</option>
       <option data-url="a6SetTime.html" value="op1">SetTime</option>
       <option data-url="a7Dates.html" value="op1">Dates</option>
+      <option data-url="a8JSON.html" value="op1">JSON</option>
 
   </select>
 </div>
