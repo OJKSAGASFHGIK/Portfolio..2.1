@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a2Vectors</title>
+    <link rel="stylesheet" href="assets\css\vars.css">
+    <script src="assets\js\a5tagsWithFunctions.js" defer></script>
+</head>
+
+<body style="background:gray; font-size:27px;">
+    <aside class="button">
+        <div><a href="a1GeneralContent.html">Home</a></div>
+        <div>
+            <a href="a4repetitionStructures.html">Back</a>
+            <span>/</span>
+            <a href="a6Class.html">Next</a>
+        </div>
+    </aside>
+    <aside class="button2mini-menu">
+        <ul>
+            <li><a href="#p1">XMLHttpRequest</a></li>
+            <li><a href="#p2">API Fetch</a></li>
+        </ul>
+    </aside>
+    <div id="p1">
+        <h1 class="line">XMLHttpRequest - Click for take one image of a dog</h1>
+        <div class="block">
+            <button onclick="func1()">Button</button>
+            <br>
+            <img id="id1dog" src="" alt="Waiting a click" class="baseSize">
+        </div>
+        <pre>
+function func1() {
+    let XMLHttpRequest1 = new XMLHttpRequest();
+    let url1 = "https://dog.ceo/api/breeds/image/random";
+    XMLHttpRequest1.open("GET", url1, true);
+
+    XMLHttpRequest1.onreadystatechange = function () {
+        /*if (XMLHttpRequest1.readyState == 3) {
+            console.log("Loading...");
+        }*/
+        if (XMLHttpRequest1.readyState == 4) {
+            let JSONResponse1 = JSON.parse(XMLHttpRequest1.responseText);
+            /*console.log("Successful");
+            console.log("Request result:" + JSONResponse1);
+            console.log("Request result:" + JSONResponse1.message);*/
+            
+            let a1dog = document.getElementById("id1dog");
+            a1dog.src = JSONResponse1.message;
+        }
+    }
+
+    XMLHttpRequest1.send(null);
+}
+        </pre>
+    </div>
+
+    <div id="p2">
+        <h1 class="line">API Fetch - Click for take one image of a dog</h1>
+        <div class="block">
+            <button onclick="func2()">Button</button>
+            <br>
+            <img id="id2dog" src="" alt="Waiting a click" class="baseSize">
+        </div>
+        <pre>
+function func2() {
+    let url2 = "https://dog.ceo/api/breeds/image/random" 
+    fetch(url2, { method: 'get' })
+    .then(function(response) { 
+        response.json().then(function(data){
+            console.log('Resultado da Requisição: ' + data.message); 
+                  
+            let imgDog = document.getElementById("id2dog");
+            imgDog.src = data.message;
+        });
+    })
+    .catch(function(err) { 
+        console.error('O seguinte erro ocorreu durante a requisição: ' + err);
+    }); 
+}
+        </pre>
+    </div>
+    <!--
+    Model:
+    <div id="part14">
+        <div class="line"></div>
+        <pre>
+// code
+        </pre>
+        <div class="block">
+            <div id="id24"></div>
+        </div>
+    </div>
+    -->
+</body>
+
+</html>
