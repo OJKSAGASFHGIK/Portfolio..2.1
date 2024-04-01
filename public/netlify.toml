@@ -1,9 +1,0 @@
-[build]
-  publish = "."
-  command = "echo 'no build script'"
-
-[[redirects]]
-  from = "/1.ProjectNotes/*" # from = link (from é o link)
-  to = "/1.ProjectNotes/:splat" # to = path (to é o path)
-  status = 200
-  force = true

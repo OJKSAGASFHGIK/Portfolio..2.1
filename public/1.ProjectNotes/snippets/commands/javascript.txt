@@ -1,2 +1,0 @@
-classExample
-class

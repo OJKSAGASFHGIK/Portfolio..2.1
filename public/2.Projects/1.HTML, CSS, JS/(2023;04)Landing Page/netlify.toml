@@ -1,4 +1,0 @@
-[build]
-  command = "echo 'no build script'"
-  publish = "public"
-  
