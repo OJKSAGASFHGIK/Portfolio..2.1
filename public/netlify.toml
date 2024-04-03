@@ -7,3 +7,9 @@
   to = "/1.ProjectNotes/:splat" # to = path (to é o path)
   status = 200
   force = true
+
+[[redirects]]
+  from = "/2.Projects/*"
+  to = "/2.Projects/:splat"
+  status = 200
+  force = true
