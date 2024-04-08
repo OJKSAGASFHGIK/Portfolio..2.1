@@ -35,13 +35,13 @@ h6{font-size:126%;}
 .bBackground{/*means: Beautiful background*/
     color:var(--white);background-image: url('../img/a1rainbow-vortex.svg');
     padding:1.8%;
-    min-height:84vh;
+    min-height:1vh;
     background-size:cover;background-position:center center;
-    gap:200px;}
+    gap:0px;}
 .sBackground{/*means: Simple background*/
     color:var(--firstColor);background-color: var(--white);
     padding: 1.8%;
-    min-height:63vh;
+    min-height:1vh;
     background-size:cover;background-position:center center;
 
     display:flex;
@@ -99,13 +99,13 @@ https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css
 /* -Section 2:
 link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29165882#overview*/
 #section2, #section6{
-    box-sizing:border-box;
-    min-height:100vh;}
+    box-sizing:border-box;}
 #section2, #section6 {padding:15vh 1.5vw;}
 #section2 h3, #section6 h3{font-weight:bold;
     font-size:2.1rem;
     display:flex; justify-content:center;align-items:center;}
 #section2 p, #section6 p{font-size:0.8rem;}
+#section2 div {padding:0 12.5vw;}
 
 /* -Section 3:
 link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29165884#overview*/
@@ -115,7 +115,7 @@ link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-
     justify-content:center;
     flex-flow:column wrap;}
 #section3 h3, #section5 h3 { flex-flow: column wrap;
-    font-size: 1.5rem;margin:7.5vh 0 0.5rem; overflow: hidden;}
+    font-size: 2.1rem;margin:7.5vh 0 0.5rem; overflow: hidden;}
 #section3 p, #section5 p {font-size:0.84rem;padding-bottom:1rem;}
 
 #section3 div div:nth-child(2),
@@ -124,7 +124,7 @@ link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-
     gap:1rem;
     
     /*counter-reset:grid-counter;*/}
-#section3 div h4, #section5 div h4{font-size:2.1rem;
+#section3 div h4, #section5 div h4{font-size:1.8rem;
     position:absolute;position:relative;
     margin-left:1.5rem;}
 #section3 div h4::before, #section5 div h4::before {
@@ -161,13 +161,13 @@ link:https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-
 #section4 div div div img:hover {transform:translate(-3%,-3%) scale(1.2) rotate(-3deg)}
 
 /*https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29165894#overview*/
-#section6 {overflow:hidden; overflow-x:auto;
+#section6 .section6grid{overflow:hidden; overflow-x:auto;
     
     width:100%;height:auto;
 
-    display:flex; justify-content:center; align-items:center}
+    display:flex; justify-content:space-between; align-items:start; gap:27px;}
 table {border-collapse:collapse;
-    min-width:45vw;width:100%;}
+    min-width:20vw;width:100%;}
 caption {font-family:italic;
     text-align:left;}
 table th, tfoot td {background:var(--blackTransparent);}
@@ -179,8 +179,8 @@ table th, table td {white-space:nowrap;
 #section6 {max-width:100vw;}
 #section6 .section6grid {
     display:grid; grid-template-columns: 1fr 1fr; overflow: hidden;}
-.section6gridDivDiv1 div { padding-right:24px; }
-.section6gridDivDiv1 div article { padding-top:18px; line-height:1.145rem;}
+/* .section6gridDivDiv1 div { padding-right:24px; }
+.section6gridDivDiv1 div article { padding-top:18px; line-height:1.145rem;} */
 
 /*https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css/learn/lecture/29165896#overview*/
 #section7 {padding-top:3rem;}
