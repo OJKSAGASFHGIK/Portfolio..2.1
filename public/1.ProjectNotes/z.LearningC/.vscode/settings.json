@@ -1,0 +1,20 @@
+{
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
+    "files.associations": {
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.xml": "html",
+        "*.svg": "html",
+        "*.html": "html",
+        "django-html": "html",
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/base_templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "random": "c",
+        "stdio.h": "c",
+        "zlibrary.h": "c",
+        "mem.h": "c",
+        "stdlib.h": "c"
+    }
+}
