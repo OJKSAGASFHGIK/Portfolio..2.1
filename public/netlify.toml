@@ -15,5 +15,5 @@
   force = true
 
 [submodule "public/1.ProjectNotes/3.LearningReact.JS"]
-   path = public/1.ProjectNotes/3.LearningReact.JS
+   path = "public/1.ProjectNotes/3.LearningReact.JS"
    url = <submodule-repository-url>
