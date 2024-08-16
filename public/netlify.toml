@@ -15,7 +15,7 @@
   force = true
 
 [[redirects]]
-  from = "/1.ProjectNotes/3.LearningReact.JS/*" # from = link (from é o link)
-  to = "/1.ProjectNotes/3.LearningReact.JS/:splat" # to = path (to é o path)
+  from = "/1.ProjectNotes/3.LearningReact.JS/react-library/public/*" # from = link (from é o link)
+  to = "/1.ProjectNotes/3.LearningReact.JS/react-library/public/:splat" # to = path (to é o path)
   status = 200
   force = true
