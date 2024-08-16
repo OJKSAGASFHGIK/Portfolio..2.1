@@ -13,3 +13,7 @@
   to = "/2.Projects/:splat"
   status = 200
   force = true
+
+[submodule "public/1.ProjectNotes/3.LearningReact.JS"]
+    path = public/1.ProjectNotes/3.LearningReact.JS
+    url = https://github.com/OJKSAGASFHGIK/.._Learning-React.JS
