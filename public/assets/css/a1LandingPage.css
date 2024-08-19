@@ -93,6 +93,8 @@ https://www.udemy.com/course/curso-de-django-web-framework-com-python-html-e-css
 
 .sectionDivDiv1 h3{text-transform:uppercase;
     font-size:1.8rem;}
+
+.sectionDivDiv1 .sProfileTitle { border-bottom: 1px solid darkgray}
 .sectionDivDiv1 a {color:cyan;transition:all 243ms ease-in-out}
 .sectionDivDiv1 a:hover {color: yellow;}
 
